@@ -1,4 +1,3 @@
-```markdown
 # RaWi Repository - Project Setup Guide
 
 Welcome to the RaWi Repository setup guide. Follow the steps below to set up the project on your local machine.
@@ -18,10 +17,10 @@ cd RaWi
 ---
 
 ## 2. Set Up a Virtual Environment
-- Ensure **Python 3.12** is installed on your system.
+- Ensure **Python 3** is installed on your system.
 - Create a virtual environment:
   ```bash
-  python3.12 -m venv venv
+  python3 -m venv venv
   ```
 - Activate the virtual environment:
   - On Linux/macOS:
@@ -32,6 +31,8 @@ cd RaWi
     ```bash
     venv\Scripts\activate
     ```
+- or Can use:
+    - $env:PYTHONPATH = "$env:PYTHONPATH;PATH\to\Rawi\gui2r"
 
 ---
 
