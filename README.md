@@ -32,8 +32,9 @@ cd RaWi
     venv\Scripts\activate
     ```
 - or Can use:
-    - $env:PYTHONPATH = "$env:PYTHONPATH;PATH\to\Rawi\gui2r"
-
+    ```bash
+    $env:PYTHONPATH = "$env:PYTHONPATH;PATH\to\Rawi\gui2r"
+    ```
 ---
 
 ## 3. Install Dependencies
