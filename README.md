@@ -165,4 +165,3 @@ http://127.0.0.1:8000/static/resources/semantic_annotations/1.json
 ---
 
 Thank you for setting up the RaWi project. Feel free to report issues or contribute to the repository!
-```
