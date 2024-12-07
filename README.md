@@ -10,6 +10,11 @@ The supplementary material of our submission to the ASE Journal is structured as
 - **webapp**: This directoy contains the prototypical implementation of our approach based on a Django web application
 
 
+## Live Website Demo
+
+[![Live Website Demo](https://img.shields.io/badge/Demo-Live-blue)](https://drive.google.com/file/d/1OuDit7PC7gTfMwUdiWyPOo9Lb2Yo7ghf/view?usp=sharing)
+
+
 # RaWi Repository - Project Setup Guide
 
 Welcome to the RaWi Repository setup guide. Follow the steps below to set up the project on your local machine.
