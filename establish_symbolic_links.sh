@@ -17,14 +17,24 @@ ln -s "$HOME/word/word2vec-master" "$HOME/gui2r/gui2r/resources/word2vec"
 #
 # BERT
 #
-mkdir "$HOME/resources"
+mkdir -p "$HOME/resources"
 cd "$HOME/resources"
 ln -s "$HOME/embeddings" "$HOME/resources/embeddings"
-touch  "$HOME/gui2r/gui2r/resources/bert-base" && rm -r "$HOME/gui2r/gui2r/resources/bert-base"
+
+
+BERT_DIR="$HOME/gui2r/gui2r/resources/bert-base"
+
+if [ -d "$DIR" ]; then
+  rm -r "$DIR"
+  echo "Directory removed: $DIR"
+else
+  echo "Directory does not exist: $DIR"
+fi
+
 ln -s "$HOME/embeddings" "$HOME/gui2r/gui2r/resources/bert-base"
 
 #
 # preproc
 #
-mkdir "$HOME/webapp/rawi/../gui2rapp/staticfiles/resources/preproc_text
+mkdir -p "$HOME/webapp/rawi/../gui2rapp/staticfiles/resources/preproc_text"
 
