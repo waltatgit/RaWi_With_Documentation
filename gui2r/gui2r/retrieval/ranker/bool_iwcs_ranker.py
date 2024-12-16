@@ -129,8 +129,10 @@ class BoolIWCSRanker(Ranker):
         doc_embed = np.zeros(embedding.vector_size)
         for word_index, weight in tfidf_words:
             word = id2word[word_index]
-            if word in embedding.vocab:
-                word_embed = embedding[word]
+            #if word in embedding.vocab:
+            if word in embedding.key_to_index:
+                #word_embed = embedding[word]
+                word_embed=embedding.key_to_index[word]
                 embeds.append(word_embed)
                 doc_embed += word_embed * weight
             else:
